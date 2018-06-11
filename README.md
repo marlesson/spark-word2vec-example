@@ -6,10 +6,21 @@ The aim of this example is to translate the python code in this tutorial into Sc
 We use the [Word2Vec](https://github.com/apache/spark/blob/master/mllib/src/main/scala/org/apache/spark/mllib/feature/Word2Vec.scala)
 implementation in [Spark Mllib](http://spark.apache.org/mllib/).
 
-## Run
+## run
 
 ```bash
  git clone http://github.com/dosht/spark-word2vec-example.git
  cd spark-word2vec-example
+```
+
+## Scala
+
+```bash
  sbt run
+```
+
+## python
+
+```bash
+spark-submit src/main/python/Word2VecExample.py
 ```

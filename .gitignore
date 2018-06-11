@@ -5,3 +5,9 @@ project/boot/
 .idea/
 .history
 .cache
+metastore_db
+log
+spark-warehouse
+.ipynb_checkpoints/
+derby.log
+data/word2vec
